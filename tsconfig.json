@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "lib": ["es2016", "DOM"],
+    "allowJs": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "target": "ESNext", // Change to ES2020 for a more stable target
+    "module": "ESNext", // Change to "CommonJS" if the issue persists
+    "strict": false,
+    "esModuleInterop": true ,// You can try removing this line
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
